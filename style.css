@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+}
+
+h1::before{
+    content: " ";
+    width: 150px;
+    height: 5px;
+    display: block;
+    border-top: 1px solid #fff;
+    margin-bottom: 20px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 100px;
+    color: hsl(273, 4%, 51%);
+}
+
+header img{
+    width: 100px;
+    height: 40px;
+}
+
+nav ul li{
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color:  hsl(256, 26%, 20%);
+}
+
+button:focus{
+    cursor: pointer;
+
+}
+
+header button:hover{
+    background-color: hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 98%);
+}
+
+
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    outline: none;
+    background-color: #fff;
+    border: 2px solid hsl(270, 9%, 17%);
+    text-transform: uppercase;
+    font-size: 70%;
+
+}
+
+.btn-ghost{
+    background-color: transparent;
+}
+
+.humanize{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+    padding: 30px 100px;
+    background-color: hsl(256, 26%, 20%);
+    background-image: url(./images/bg-pattern-intro-right-desktop.svg),url(./images/bg-pattern-intro-left-desktop.svg);
+    background-position: right top,left 0px bottom -120px;
+    background-repeat: no-repeat,no-repeat;
+    background-size: 350px,150px;
+    
+    
+}
+
+.humanize h1{
+    color: hsl(0, 0%, 98%);
+    font-size: 400%;
+    width: 65%;
+    margin: 0;
+}
+.humanize p{
+    color: hsl(0, 0%, 98%);
+    width: 80%;
+    font-size: 90%;
+}
+
+.humanize button{
+    color: hsl(0, 0%, 98%);
+    border:2px solid hsl(0, 0%, 98%);
+}
+
+.humanize img{
+    z-index: 0;
+    height: 550px;
+    margin-top: 150px;
+}
+
+.options{
+    margin-top: 120px;
+    padding: 30px 100px;
+
+}
+.options h1{
+    font-size: 350%;
+    color: hsl(270, 9%, 17%);
+    margin-bottom: 100px;
+}
+.options h1::before{
+    border-top: 1px solid  hsl(256, 26%, 20%);
+}
+
+.option-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.details h2{
+    color: hsl(270, 9%, 17%);
+}
+
+.details p{
+    width: 80%;
+    color:hsl(273, 4%, 51%);
+}
+
+.box{
+    margin: 100px auto;
+    background-color: hsl(256, 26%, 20%) ;
+    background-image: url(./images/bg-pattern-how-we-work-desktop.svg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+}
+
+.box h1{
+    color: hsl(0, 0%, 98%);
+    width: 45%;
+    padding: 0;
+    font-size: 320%;
+}
+
+.box h1::before{
+    border: none;
+}
+
+.box button{
+    color: hsl(0, 0%, 98%);
+    border:2px solid hsl(0, 0%, 98%);
+    padding: 10px 30px;
+}
+
+.box button:hover,
+.humanize button:hover{
+    background-color: hsl(0, 0%, 98%);
+    color:  hsl(256, 26%, 20%);
+}
+
+footer{
+    background-image: url(./images/bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 30px 100px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+footer ul li{
+    list-style: none;
+    
+}
+
+.first-layer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom:1px solid hsla(276, 4%, 51%, 0.377);
+}
+.first-layer ul li{
+    float: left;
+    margin-right: 20px;
+}
+
+.first-layer ul li:hover{
+    color:  hsl(256, 26%, 20%);
+}
+
+.first-layer img{
+    height: 20px;
+}
+
+.second-layer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second-layer li:first-child{
+    margin-bottom: 20px;
+    color: hsl(273, 4%, 51%);
+}
+
+.second-layer li{
+    color: hsl(256, 26%, 20%);
+    margin-bottom: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
