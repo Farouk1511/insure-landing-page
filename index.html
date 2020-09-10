@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./query.css">
     <link
       rel="icon"
       type="image/png"
@@ -25,8 +26,17 @@
           <li><button class="btn btn-ghost">View Plans</button></li>
         </ul>
       </nav>
-    </header>
+      <img id="burger" class='burger' src="./images/icon-hamburger.svg" alt="">
 
+    </header>
+    <div class="mobile-nav" id="mobile-nav">
+      <ul>
+        <li>How we work</li>
+        <li>Blog</li>
+        <li>Account</li>
+        <li><button class="btn btn-ghost">View Plans</button></li>
+      </ul>
+    </div>
     <section class="humanize">
       <div class="main-container">
         <h1>Humanizing your insurance.</h1>
@@ -70,14 +80,15 @@
           </p>
         </div>
       </div>
-      <div class="box">
-        <h1>Find out more about how we work.</h1>
-        <button class="btn btn-ghost">How we work</button>
-      </div>
+      
     </section>
+    <div class="box">
+      <h1>Find out more about how we work.</h1>
+      <button class="btn btn-ghost">How we work</button>
+    </div>
     <footer>
       <div class="first-layer">
-        <img src="./images/logo.svg" alt="logo" />
+        <img class="footer-logo" src="./images/logo.svg" alt="logo" />
         <ul>
           <li><img src="./images/icon-facebook.svg" alt="icon-facebook" /></li>
           <li>
@@ -126,5 +137,6 @@
       >. Coded by <a href="github.com/Farouk1511">Farouk Kazeem</a>.
     </div>
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>

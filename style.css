@@ -62,6 +62,38 @@ header button:hover{
     color: hsl(0, 0%, 98%);
 }
 
+.burger{
+    width: 60px;
+    display: none;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.mobile-nav{
+    text-align: center;
+    background-color: hsla(256, 25%, 20%, 0.884);
+    padding: 10px;
+    color: #fff;
+    display: none;
+    
+}
+
+.mobile-nav.show{
+    display: block;
+}
+
+.mobile-nav ul li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.mobile-nav button{
+    color: #fff;
+    border-color: #fff;
+}
 
 
 .btn{
