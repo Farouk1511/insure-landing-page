@@ -149,6 +149,9 @@
   .second-layer {
     text-align: center;
     flex-direction: column;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
   }
   .footer-logo {
     width: 180px;
