@@ -1,165 +1,161 @@
 @media only screen and (max-width: 1440px) {
-    .main-container h1{
-        width: 100%;
-    }
+  .main-container h1 {
+    width: 100%;
+  }
 }
 /*Big Tablets to 1200px (widths smaller than 1140 row)*/
 @media only screen and (max-width: 1200px) {
-  .main-container h1{
-      font-size: 340%;
+  .main-container h1 {
+    font-size: 340%;
   }
 
-  .humanize img{
-      width: 400px;
+  .humanize img {
+    width: 400px;
   }
 }
 
 /*Small tablet to big tablet: 768px - 1023px*/
 @media only screen and (max-width: 1023px) {
-    header{
-        padding: 30px;
-    }
-    .humanize{
-        height: 50vh;
-    }
-    .main-container h1{
-        font-size: 220%;
-    }
-    .main-container p{
-        font-size: 80%;
-    }
-  
-    .humanize img{
-        width: 300px;
-        height: 400px;
-    }
-    
-    .details{
-        font-size: 90%;
-    }
-    .details p{
-        margin: 0;
-    }
+  header {
+    padding: 30px;
+  }
+  .humanize {
+    height: 50vh;
+  }
+  .main-container h1 {
+    font-size: 220%;
+  }
+  .main-container p {
+    font-size: 80%;
+  }
 
-    .box{
-        background-attachment: scroll;
-       
-        padding: 20px;
-        height: 180px;
-    }
-    .box h1{
-        font-size: 220%;
-        width: 60%;
-    }
+  .humanize img {
+    width: 300px;
+    height: 400px;
+  }
+
+  .details {
+    font-size: 90%;
+  }
+  .details p {
+    margin: 0;
+  }
+
+  .box {
+    background-attachment: scroll;
+
+    padding: 20px;
+    height: 180px;
+  }
+  .box h1 {
+    font-size: 220%;
+    width: 60%;
+  }
 }
 
 /*Small phones to small tablet: 481px - 767px*/
 @media only screen and (max-width: 767px) {
-    header{
-        padding: 20px;
-    }
-    header nav {
-       visibility: hidden;
-    }
- section{
-     flex-direction: column-reverse;
- }
- .humanize img{
+  header {
+    padding: 20px;
+  }
+  header nav {
+    visibility: hidden;
+  }
+  section {
+    flex-direction: column-reverse;
+  }
+  .humanize img {
     margin: 20px;
     width: 400px;
     height: 500px;
-}
-.main-container{
+  }
+  .main-container {
     padding: 0px;
-}
-.main-container .btn{
+  }
+  .main-container .btn {
     margin: 0 auto;
     display: block;
-}
-.main-container h1{
+  }
+  .main-container h1 {
     font-size: 190%;
-}
-.main-container p,
-.main-container h1{
+  }
+  .main-container p,
+  .main-container h1 {
     width: 100%;
     text-align: center;
-}
-.humanize{
+  }
+  .humanize {
     height: auto;
-}
-.option-container{
+  }
+  .option-container {
     flex-direction: column;
     text-align: center;
-}
-.details p{
+  }
+  .details p {
     margin: 10px auto;
-}
-.options h1{
+  }
+  .options h1 {
     font-size: 300%;
-}
-.box{
+  }
+  .box {
     background-attachment: scroll;
-   width: 100%;
+    width: 100%;
     padding: 20px;
     height: 180px;
     background-size: 300px;
     font-size: 80%;
-}
-.box h1{
-    
+  }
+  .box h1 {
     width: 60%;
-}
-.burger{
+  }
+  .burger {
     display: block;
     cursor: pointer;
-}
-
-
+  }
 }
 
 /*Small phones from 0-480px*/
 @media only screen and (max-width: 480px) {
-    .humanize{
-        padding: 0;
-        padding-bottom: 30px;
-    }
-    .main-container h1{
-        font-size: 130%;
-    }
-    .main-container p{
-        font-size: 70%;
-    }
+  .humanize {
+    padding: 0;
+    padding-bottom: 30px;
+  }
+  .main-container h1 {
+    font-size: 130%;
+  }
+  .main-container p {
+    font-size: 70%;
+  }
 
-    .humanize img{
-       margin: 0;
-      width: 100%;
+  .humanize img {
+    margin: 0;
+    width: 100%;
 
-      margin-bottom: 40px;
-    }
-    .options{
-        padding: 20px;
-    }
-    .options h1{
-        font-size: 250%;
-    }
-    .box{
-        font-size: 70%;
-    }
-   footer{
-       padding: 30px;
-   }
-    .first-layer,
-    .second-layer{
-        text-align: center;
-        flex-direction: column;
-    }
-   .footer-logo{
-       width: 180px;
-       display: block;
-       margin: 0 auto;
-   }
-   .first-layer ul{
-       margin: 10px auto;
-   }
-   
+    margin-bottom: 40px;
+  }
+  .options {
+    padding: 20px;
+  }
+  .options h1 {
+    font-size: 250%;
+  }
+  .box {
+    font-size: 70%;
+  }
+  footer {
+    padding: 30px;
+  }
+  .first-layer,
+  .second-layer {
+    text-align: center;
+    flex-direction: column;
+  }
+  .footer-logo {
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+  }
+  .first-layer ul {
+    margin: 10px auto;
+  }
 }

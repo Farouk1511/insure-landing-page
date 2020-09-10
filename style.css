@@ -17,250 +17,242 @@ h3 {
   font-weight: 400;
 }
 
-h1::before{
-    content: " ";
-    width: 150px;
-    height: 5px;
-    display: block;
-    border-top: 1px solid #fff;
-    margin-bottom: 20px;
-    
+h1::before {
+  content: " ";
+  width: 150px;
+  height: 5px;
+  display: block;
+  border-top: 1px solid #fff;
+  margin-bottom: 20px;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:30px 100px;
-    color: hsl(273, 4%, 51%);
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+  color: hsl(273, 4%, 51%);
 }
 
-header img{
-    width: 100px;
-    height: 40px;
+header img {
+  width: 100px;
+  height: 40px;
 }
 
-nav ul li{
-    list-style: none;
-    float: left;
-    margin-right: 30px;
-    vertical-align: bottom;
-    cursor: pointer;
+nav ul li {
+  list-style: none;
+  float: left;
+  margin-right: 30px;
+  vertical-align: bottom;
+  cursor: pointer;
 }
 
-nav ul li:hover{
-    color:  hsl(256, 26%, 20%);
+nav ul li:hover {
+  color: hsl(256, 26%, 20%);
 }
 
-button:focus{
-    cursor: pointer;
-
+button:focus {
+  cursor: pointer;
 }
 
-header button:hover{
-    background-color: hsl(256, 26%, 20%);
-    color: hsl(0, 0%, 98%);
+header button:hover {
+  background-color: hsl(256, 26%, 20%);
+  color: hsl(0, 0%, 98%);
 }
 
-.burger{
-    width: 60px;
-    display: none;
-    transition: all 0.4s ease;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -ms-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
+.burger {
+  width: 60px;
+  display: none;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
 }
 
-.mobile-nav{
-    text-align: center;
-    background-color: hsla(256, 25%, 20%, 0.884);
-    padding: 10px;
-    color: #fff;
-    display: none;
-    
+.mobile-nav {
+  text-align: center;
+  background-color: hsla(256, 25%, 20%, 0.884);
+  padding: 10px;
+  color: #fff;
+  display: none;
 }
 
-.mobile-nav.show{
-    display: block;
+.mobile-nav.show {
+  display: block;
 }
 
-.mobile-nav ul li{
-    list-style: none;
-    margin-bottom: 30px;
+.mobile-nav ul li {
+  list-style: none;
+  margin-bottom: 30px;
 }
 
-.mobile-nav button{
-    color: #fff;
-    border-color: #fff;
+.mobile-nav button {
+  color: #fff;
+  border-color: #fff;
 }
 
-
-.btn{
-    display: inline-block;
-    padding: 10px 20px;
-    outline: none;
-    background-color: #fff;
-    border: 2px solid hsl(270, 9%, 17%);
-    text-transform: uppercase;
-    font-size: 70%;
-
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  outline: none;
+  background-color: #fff;
+  border: 2px solid hsl(270, 9%, 17%);
+  text-transform: uppercase;
+  font-size: 70%;
 }
 
-.btn-ghost{
-    background-color: transparent;
+.btn-ghost {
+  background-color: transparent;
 }
 
-.humanize{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 70vh;
-    padding: 30px 100px;
-    background-color: hsl(256, 26%, 20%);
-    background-image: url(./images/bg-pattern-intro-right-desktop.svg),url(./images/bg-pattern-intro-left-desktop.svg);
-    background-position: right top,left 0px bottom -120px;
-    background-repeat: no-repeat,no-repeat;
-    background-size: 350px,150px;
-    
-    
+.humanize {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70vh;
+  padding: 30px 100px;
+  background-color: hsl(256, 26%, 20%);
+  background-image: url(./images/bg-pattern-intro-right-desktop.svg),
+    url(./images/bg-pattern-intro-left-desktop.svg);
+  background-position: right top, left 0px bottom -120px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 350px, 150px;
 }
 
-.humanize h1{
-    color: hsl(0, 0%, 98%);
-    font-size: 400%;
-    width: 65%;
-    margin: 0;
+.humanize h1 {
+  color: hsl(0, 0%, 98%);
+  font-size: 400%;
+  width: 65%;
+  margin: 0;
 }
-.humanize p{
-    color: hsl(0, 0%, 98%);
-    width: 80%;
-    font-size: 90%;
-}
-
-.humanize button{
-    color: hsl(0, 0%, 98%);
-    border:2px solid hsl(0, 0%, 98%);
+.humanize p {
+  color: hsl(0, 0%, 98%);
+  width: 80%;
+  font-size: 90%;
 }
 
-.humanize img{
-    z-index: 0;
-    height: 550px;
-    margin-top: 150px;
+.humanize button {
+  color: hsl(0, 0%, 98%);
+  border: 2px solid hsl(0, 0%, 98%);
 }
 
-.options{
-    margin-top: 120px;
-    padding: 30px 100px;
-
-}
-.options h1{
-    font-size: 350%;
-    color: hsl(270, 9%, 17%);
-    margin-bottom: 100px;
-}
-.options h1::before{
-    border-top: 1px solid  hsl(256, 26%, 20%);
+.humanize img {
+  z-index: 0;
+  height: 550px;
+  margin-top: 150px;
 }
 
-.option-container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.options {
+  margin-top: 120px;
+  padding: 30px 100px;
+}
+.options h1 {
+  font-size: 350%;
+  color: hsl(270, 9%, 17%);
+  margin-bottom: 100px;
+}
+.options h1::before {
+  border-top: 1px solid hsl(256, 26%, 20%);
 }
 
-.details h2{
-    color: hsl(270, 9%, 17%);
+.option-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.details p{
-    width: 80%;
-    color:hsl(273, 4%, 51%);
+.details h2 {
+  color: hsl(270, 9%, 17%);
 }
 
-.box{
-    margin: 100px auto;
-    background-color: hsl(256, 26%, 20%) ;
-    background-image: url(./images/bg-pattern-how-we-work-desktop.svg);
-    background-position: right top;
-    background-repeat: no-repeat;
-    padding: 20px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 250px;
-    width: 100%;
+.details p {
+  width: 80%;
+  color: hsl(273, 4%, 51%);
 }
 
-.box h1{
-    color: hsl(0, 0%, 98%);
-    width: 45%;
-    padding: 0;
-    font-size: 320%;
+.box {
+  margin: 100px auto;
+  background-color: hsl(256, 26%, 20%);
+  background-image: url(./images/bg-pattern-how-we-work-desktop.svg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+  width: 100%;
 }
 
-.box h1::before{
-    border: none;
+.box h1 {
+  color: hsl(0, 0%, 98%);
+  width: 45%;
+  padding: 0;
+  font-size: 320%;
 }
 
-.box button{
-    color: hsl(0, 0%, 98%);
-    border:2px solid hsl(0, 0%, 98%);
-    padding: 10px 30px;
+.box h1::before {
+  border: none;
+}
+
+.box button {
+  color: hsl(0, 0%, 98%);
+  border: 2px solid hsl(0, 0%, 98%);
+  padding: 10px 30px;
 }
 
 .box button:hover,
-.humanize button:hover{
-    background-color: hsl(0, 0%, 98%);
-    color:  hsl(256, 26%, 20%);
+.humanize button:hover {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(256, 26%, 20%);
 }
 
-footer{
-    background-image: url(./images/bg-pattern-footer-desktop.svg);
-    background-repeat: no-repeat;
-    background-position: top left;
-    padding: 30px 100px;
-    background-color: hsl(0, 0%, 98%);
+footer {
+  background-image: url(./images/bg-pattern-footer-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 30px 100px;
+  background-color: hsl(0, 0%, 98%);
 }
 
-footer ul li{
-    list-style: none;
-    
+footer ul li {
+  list-style: none;
 }
 
-.first-layer{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 10px;
-    border-bottom:1px solid hsla(276, 4%, 51%, 0.377);
+.first-layer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid hsla(276, 4%, 51%, 0.377);
 }
-.first-layer ul li{
-    float: left;
-    margin-right: 20px;
-}
-
-.first-layer ul li:hover{
-    color:  hsl(256, 26%, 20%);
+.first-layer ul li {
+  float: left;
+  margin-right: 20px;
 }
 
-.first-layer img{
-    height: 20px;
+.first-layer ul li:hover {
+  color: hsl(256, 26%, 20%);
 }
 
-.second-layer{
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-evenly;
+.first-layer img {
+  height: 20px;
 }
 
-.second-layer li:first-child{
-    margin-bottom: 20px;
-    color: hsl(273, 4%, 51%);
+.second-layer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.second-layer li{
-    color: hsl(256, 26%, 20%);
-    margin-bottom: 10px;
+.second-layer li:first-child {
+  margin-bottom: 20px;
+  color: hsl(273, 4%, 51%);
+}
+
+.second-layer li {
+  color: hsl(256, 26%, 20%);
+  margin-bottom: 10px;
 }
 
 .attribution {

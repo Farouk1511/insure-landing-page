@@ -2,7 +2,6 @@ const burger = document.getElementById("burger");
 const mobileNav = document.getElementById("mobile-nav");
 let panel = "hamburger";
 burger.addEventListener("click", () => {
-  
   if (panel === "hamburger") {
     burger.src = "./images/icon-close.svg";
     panel = "close";
@@ -11,6 +10,5 @@ burger.addEventListener("click", () => {
     panel = "hamburger";
   }
 
-  mobileNav.classList.toggle('show')
-  
+  mobileNav.classList.toggle("show");
 });
